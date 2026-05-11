@@ -1,0 +1,1911 @@
+{
+  "data_execucao": "2026-05-11T11:12:39.200266",
+  "arquivos": [
+    {
+      "nome": "atendimentos_2014.csv",
+      "encoding": "utf-8",
+      "registros": 57655,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 57655,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 7
+          },
+          {
+            "nome": "Ano",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 15
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 2689,
+            "pct_nulos": 4.66,
+            "valores_unicos": 301
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 52891,
+            "pct_nulos": 91.74,
+            "valores_unicos": 18
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 8207,
+            "pct_nulos": 14.23,
+            "valores_unicos": 11
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 29066
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 279,
+            "pct_nulos": 0.48,
+            "valores_unicos": 145
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 217
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 1457,
+            "pct_nulos": 2.53,
+            "valores_unicos": 6
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 269
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 8620,
+            "pct_nulos": 14.95,
+            "valores_unicos": 55
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 57655,
+            "pct_nulos": 100.0,
+            "valores_unicos": 0
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 57655,
+            "pct_nulos": 100.0,
+            "valores_unicos": 0
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 57655,
+            "pct_nulos": 100.0,
+            "valores_unicos": 0
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 57655,
+        "memoria_mb": 37.7,
+        "colunas_numericas": [
+          "Ano",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Regional",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Ocorrencia' com 91.7% de nulos",
+        "Coluna 'Quantidade' com 100.0% de nulos",
+        "Coluna 'Altura' com 100.0% de nulos",
+        "Coluna 'Largura' com 100.0% de nulos",
+        "Coluna 'Ocorrencia' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Endereco' pode ter caracteres especiais (encoding: utf-8)"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2015.csv",
+      "encoding": "utf-8",
+      "registros": 81389,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 81389,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Ano",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 19
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 212,
+            "pct_nulos": 0.26,
+            "valores_unicos": 303
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 77150,
+            "pct_nulos": 94.79,
+            "valores_unicos": 24
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 16589,
+            "pct_nulos": 20.38,
+            "valores_unicos": 20
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 6815
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 19
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 108
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 189
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 36070,
+            "pct_nulos": 44.32,
+            "valores_unicos": 7
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 272
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 22771,
+            "pct_nulos": 27.98,
+            "valores_unicos": 62
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 64456,
+            "pct_nulos": 79.19,
+            "valores_unicos": 16
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 64520,
+            "pct_nulos": 79.27,
+            "valores_unicos": 53
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 64510,
+            "pct_nulos": 79.26,
+            "valores_unicos": 47
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 111
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 81389,
+        "memoria_mb": 50.94,
+        "colunas_numericas": [
+          "Regional",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Ano",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Data' com 94.8% de nulos",
+        "Coluna 'Quantidade' com 79.2% de nulos",
+        "Coluna 'Altura' com 79.3% de nulos",
+        "Coluna 'Largura' com 79.3% de nulos",
+        "Coluna 'Area_m' tem 20.7% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2016.csv",
+      "encoding": "utf-8",
+      "registros": 92495,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 92495,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 7
+          },
+          {
+            "nome": "Ano",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 14
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 277
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 88759,
+            "pct_nulos": 95.96,
+            "valores_unicos": 18
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 27817,
+            "pct_nulos": 30.07,
+            "valores_unicos": 12
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 40385
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 107
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 189
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 10
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 262
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 22573,
+            "pct_nulos": 24.4,
+            "valores_unicos": 68
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 76971,
+            "pct_nulos": 83.22,
+            "valores_unicos": 13
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 77083,
+            "pct_nulos": 83.34,
+            "valores_unicos": 63
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 77060,
+            "pct_nulos": 83.31,
+            "valores_unicos": 53
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 110
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 92495,
+        "memoria_mb": 60.2,
+        "colunas_numericas": [
+          "Ano",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Regional",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Ocorrencia' com 96.0% de nulos",
+        "Coluna 'Quantidade' com 83.2% de nulos",
+        "Coluna 'Altura' com 83.3% de nulos",
+        "Coluna 'Largura' com 83.3% de nulos",
+        "Coluna 'Ocorrencia' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Endereco' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Area_m' tem 16.7% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2017.csv",
+      "encoding": "utf-8",
+      "registros": 86325,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 86325,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 7
+          },
+          {
+            "nome": "Ano",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 14
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 365
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 82260,
+            "pct_nulos": 95.29,
+            "valores_unicos": 17
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 19124,
+            "pct_nulos": 22.15,
+            "valores_unicos": 18
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 35462
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 103
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 177
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 2832,
+            "pct_nulos": 3.28,
+            "valores_unicos": 7
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 344
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 27519,
+            "pct_nulos": 31.88,
+            "valores_unicos": 62
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 71772,
+            "pct_nulos": 83.14,
+            "valores_unicos": 26
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 71969,
+            "pct_nulos": 83.37,
+            "valores_unicos": 56
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 71968,
+            "pct_nulos": 83.37,
+            "valores_unicos": 24
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 71
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 86325,
+        "memoria_mb": 55.95,
+        "colunas_numericas": [
+          "Ano",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Regional",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Ocorrencia' com 95.3% de nulos",
+        "Coluna 'Quantidade' com 83.1% de nulos",
+        "Coluna 'Altura' com 83.4% de nulos",
+        "Coluna 'Largura' com 83.4% de nulos",
+        "Coluna 'Ocorrencia' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Solicitacao' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Area_m' tem 16.6% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2018.csv",
+      "encoding": "utf-8",
+      "registros": 89705,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 89705,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 7
+          },
+          {
+            "nome": "Ano",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 13
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 273
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 86702,
+            "pct_nulos": 96.65,
+            "valores_unicos": 12
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 20572,
+            "pct_nulos": 22.93,
+            "valores_unicos": 13
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 34545
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 99
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 171
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 36168,
+            "pct_nulos": 40.32,
+            "valores_unicos": 8
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 263
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 26207,
+            "pct_nulos": 29.21,
+            "valores_unicos": 43
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 77998,
+            "pct_nulos": 86.95,
+            "valores_unicos": 28
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 78180,
+            "pct_nulos": 87.15,
+            "valores_unicos": 54
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 78180,
+            "pct_nulos": 87.15,
+            "valores_unicos": 23
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 68
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 89705,
+        "memoria_mb": 57.35,
+        "colunas_numericas": [
+          "Ano",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Regional",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Ocorrencia' com 96.7% de nulos",
+        "Coluna 'Quantidade' com 86.9% de nulos",
+        "Coluna 'Altura' com 87.2% de nulos",
+        "Coluna 'Largura' com 87.2% de nulos",
+        "Coluna 'Ocorrencia' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Solicitacao' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Endereco' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Area_m' tem 12.8% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2019.csv",
+      "encoding": "utf-8",
+      "registros": 89955,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 89955,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Ano",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 12
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 284
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 85797,
+            "pct_nulos": 95.38,
+            "valores_unicos": 17
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 22877,
+            "pct_nulos": 25.43,
+            "valores_unicos": 20
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 6180
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 20
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 46,
+            "pct_nulos": 0.05,
+            "valores_unicos": 98
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 1,
+            "pct_nulos": 0.0,
+            "valores_unicos": 177
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 42294,
+            "pct_nulos": 47.02,
+            "valores_unicos": 8
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 7,
+            "pct_nulos": 0.01,
+            "valores_unicos": 270
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 28783,
+            "pct_nulos": 32.0,
+            "valores_unicos": 57
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 74591,
+            "pct_nulos": 82.92,
+            "valores_unicos": 24
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 75231,
+            "pct_nulos": 83.63,
+            "valores_unicos": 59
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 75232,
+            "pct_nulos": 83.63,
+            "valores_unicos": 25
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "float64",
+            "nulos": 1,
+            "pct_nulos": 0.0,
+            "valores_unicos": 72
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 89955,
+        "memoria_mb": 55.83,
+        "colunas_numericas": [
+          "Regional",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Ano",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Data' com 95.4% de nulos",
+        "Coluna 'Quantidade' com 82.9% de nulos",
+        "Coluna 'Altura' com 83.6% de nulos",
+        "Coluna 'Largura' com 83.6% de nulos",
+        "Coluna 'Area_m' tem 16.4% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2020.csv",
+      "encoding": "utf-8",
+      "registros": 70122,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 70122,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Ano",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 14
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 1,
+            "pct_nulos": 0.0,
+            "valores_unicos": 297
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 68649,
+            "pct_nulos": 97.9,
+            "valores_unicos": 14
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 14414,
+            "pct_nulos": 20.56,
+            "valores_unicos": 18
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 5304
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 19
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 4,
+            "pct_nulos": 0.01,
+            "valores_unicos": 101
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 161
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 33496,
+            "pct_nulos": 47.77,
+            "valores_unicos": 10
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 10,
+            "pct_nulos": 0.01,
+            "valores_unicos": 270
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 22398,
+            "pct_nulos": 31.94,
+            "valores_unicos": 49
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 57229,
+            "pct_nulos": 81.61,
+            "valores_unicos": 20
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 57624,
+            "pct_nulos": 82.18,
+            "valores_unicos": 58
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 57626,
+            "pct_nulos": 82.18,
+            "valores_unicos": 25
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 79
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 70122,
+        "memoria_mb": 43.55,
+        "colunas_numericas": [
+          "Regional",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Ano",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Data' com 97.9% de nulos",
+        "Coluna 'Quantidade' com 81.6% de nulos",
+        "Coluna 'Altura' com 82.2% de nulos",
+        "Coluna 'Largura' com 82.2% de nulos",
+        "Coluna 'Area_m' tem 17.8% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2021.csv",
+      "encoding": "utf-8",
+      "registros": 64855,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 64855,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 7
+          },
+          {
+            "nome": "Ano",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 19
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 1,
+            "pct_nulos": 0.0,
+            "valores_unicos": 310
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 62971,
+            "pct_nulos": 97.1,
+            "valores_unicos": 16
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 9521,
+            "pct_nulos": 14.68,
+            "valores_unicos": 14
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 25761
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 589,
+            "pct_nulos": 0.91,
+            "valores_unicos": 100
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 167
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 30108,
+            "pct_nulos": 46.42,
+            "valores_unicos": 22
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 13,
+            "pct_nulos": 0.02,
+            "valores_unicos": 280
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 22555,
+            "pct_nulos": 34.78,
+            "valores_unicos": 47
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 53117,
+            "pct_nulos": 81.9,
+            "valores_unicos": 14
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 53620,
+            "pct_nulos": 82.68,
+            "valores_unicos": 65
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 53620,
+            "pct_nulos": 82.68,
+            "valores_unicos": 29
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 83
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 64855,
+        "memoria_mb": 41.37,
+        "colunas_numericas": [
+          "Ano",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Regional",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Ocorrencia' com 97.1% de nulos",
+        "Coluna 'Quantidade' com 81.9% de nulos",
+        "Coluna 'Altura' com 82.7% de nulos",
+        "Coluna 'Largura' com 82.7% de nulos",
+        "Coluna 'Ocorrencia' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Solicitacao' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Area_m' tem 17.3% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2022.csv",
+      "encoding": "utf-8",
+      "registros": 90425,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 90425,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Ano",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 20
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 287
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 84879,
+            "pct_nulos": 93.87,
+            "valores_unicos": 16
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 25888,
+            "pct_nulos": 28.63,
+            "valores_unicos": 32
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 6359
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 19
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 365,
+            "pct_nulos": 0.4,
+            "valores_unicos": 127
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 204
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 47011,
+            "pct_nulos": 51.99,
+            "valores_unicos": 12
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 3,
+            "pct_nulos": 0.0,
+            "valores_unicos": 275
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 20533,
+            "pct_nulos": 22.71,
+            "valores_unicos": 54
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 77778,
+            "pct_nulos": 86.01,
+            "valores_unicos": 23
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 78852,
+            "pct_nulos": 87.2,
+            "valores_unicos": 63
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 78843,
+            "pct_nulos": 87.19,
+            "valores_unicos": 62
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 80
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 90425,
+        "memoria_mb": 56.33,
+        "colunas_numericas": [
+          "Regional",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Ano",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Data' com 93.9% de nulos",
+        "Coluna 'Grau_de_Risco' com 52.0% de nulos",
+        "Coluna 'Quantidade' com 86.0% de nulos",
+        "Coluna 'Altura' com 87.2% de nulos",
+        "Coluna 'Largura' com 87.2% de nulos",
+        "Coluna 'Area_m' tem 12.8% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2023.csv",
+      "encoding": "utf-8",
+      "registros": 83164,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 83164,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 8
+          },
+          {
+            "nome": "Ano",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 28
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 266
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 79287,
+            "pct_nulos": 95.34,
+            "valores_unicos": 16
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 22608,
+            "pct_nulos": 27.18,
+            "valores_unicos": 27
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 31880
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 103,
+            "pct_nulos": 0.12,
+            "valores_unicos": 107
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 185
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 42300,
+            "pct_nulos": 50.86,
+            "valores_unicos": 13
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 39,
+            "pct_nulos": 0.05,
+            "valores_unicos": 271
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 29617,
+            "pct_nulos": 35.61,
+            "valores_unicos": 50
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 69223,
+            "pct_nulos": 83.24,
+            "valores_unicos": 33
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 70872,
+            "pct_nulos": 85.22,
+            "valores_unicos": 62
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 70875,
+            "pct_nulos": 85.22,
+            "valores_unicos": 34
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 89
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 83164,
+        "memoria_mb": 52.99,
+        "colunas_numericas": [
+          "Ano",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Regional",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Ocorrencia' com 95.3% de nulos",
+        "Coluna 'Grau_de_Risco' com 50.9% de nulos",
+        "Coluna 'Quantidade' com 83.2% de nulos",
+        "Coluna 'Altura' com 85.2% de nulos",
+        "Coluna 'Largura' com 85.2% de nulos",
+        "Coluna 'Ocorrencia' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Solicitacao' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Area_m' tem 14.8% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2024.csv",
+      "encoding": "utf-8",
+      "registros": 80173,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 80173,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 7
+          },
+          {
+            "nome": "Ano",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 23
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 1,
+            "pct_nulos": 0.0,
+            "valores_unicos": 273
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "str",
+            "nulos": 77811,
+            "pct_nulos": 97.05,
+            "valores_unicos": 17
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 27536,
+            "pct_nulos": 34.35,
+            "valores_unicos": 13
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 31742
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 57,
+            "pct_nulos": 0.07,
+            "valores_unicos": 118
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 270
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "str",
+            "nulos": 48812,
+            "pct_nulos": 60.88,
+            "valores_unicos": 5
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 8,
+            "pct_nulos": 0.01,
+            "valores_unicos": 275
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 18918,
+            "pct_nulos": 23.6,
+            "valores_unicos": 44
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 68778,
+            "pct_nulos": 85.79,
+            "valores_unicos": 23
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 70469,
+            "pct_nulos": 87.9,
+            "valores_unicos": 53
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 70491,
+            "pct_nulos": 87.92,
+            "valores_unicos": 24
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 74
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 80173,
+        "memoria_mb": 50.73,
+        "colunas_numericas": [
+          "Ano",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Regional",
+          "Mês",
+          "Ocorrencia",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Grau_de_Risco",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Ocorrencia' com 97.1% de nulos",
+        "Coluna 'Grau_de_Risco' com 60.9% de nulos",
+        "Coluna 'Quantidade' com 85.8% de nulos",
+        "Coluna 'Altura' com 87.9% de nulos",
+        "Coluna 'Largura' com 87.9% de nulos",
+        "Coluna 'Ocorrencia' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Solicitacao' pode ter caracteres especiais (encoding: utf-8)",
+        "Coluna 'Area_m' tem 12.0% de outliers"
+      ],
+      "categoricos": {}
+    },
+    {
+      "nome": "atendimentos_2025.csv",
+      "encoding": "utf-8",
+      "registros": 1,
+      "schema": {
+        "total_colunas": 16,
+        "total_registros": 1,
+        "colunas": [
+          {
+            "nome": "Regional",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Ano",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Mês",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Data",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Ocorrencia",
+            "tipo": "float64",
+            "nulos": 1,
+            "pct_nulos": 100.0,
+            "valores_unicos": 0
+          },
+          {
+            "nome": "Solicitacao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Endereco",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Bairro",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Localidade",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Grau_de_Risco",
+            "tipo": "float64",
+            "nulos": 1,
+            "pct_nulos": 100.0,
+            "valores_unicos": 0
+          },
+          {
+            "nome": "Data_da_Acao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Tipo_da_Acao",
+            "tipo": "str",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          },
+          {
+            "nome": "Quantidade",
+            "tipo": "float64",
+            "nulos": 1,
+            "pct_nulos": 100.0,
+            "valores_unicos": 0
+          },
+          {
+            "nome": "Altura",
+            "tipo": "float64",
+            "nulos": 1,
+            "pct_nulos": 100.0,
+            "valores_unicos": 0
+          },
+          {
+            "nome": "Largura",
+            "tipo": "float64",
+            "nulos": 1,
+            "pct_nulos": 100.0,
+            "valores_unicos": 0
+          },
+          {
+            "nome": "Area_m",
+            "tipo": "int64",
+            "nulos": 0,
+            "pct_nulos": 0.0,
+            "valores_unicos": 1
+          }
+        ]
+      },
+      "estatisticas": {
+        "total_registros": 1,
+        "memoria_mb": 0.0,
+        "colunas_numericas": [
+          "Ano",
+          "Ocorrencia",
+          "Grau_de_Risco",
+          "Quantidade",
+          "Altura",
+          "Largura",
+          "Area_m"
+        ],
+        "colunas_texto": [
+          "Regional",
+          "Mês",
+          "Solicitacao",
+          "Endereco",
+          "Bairro",
+          "Localidade",
+          "Tipo_da_Acao"
+        ],
+        "colunas_data": [
+          "Data",
+          "Data_da_Acao"
+        ]
+      },
+      "problemas": [
+        "Coluna 'Ocorrencia' com 100.0% de nulos",
+        "Coluna 'Grau_de_Risco' com 100.0% de nulos",
+        "Coluna 'Quantidade' com 100.0% de nulos",
+        "Coluna 'Altura' com 100.0% de nulos",
+        "Coluna 'Largura' com 100.0% de nulos"
+      ],
+      "categoricos": {}
+    }
+  ],
+  "resumo": {
+    "total_arquivos": 12,
+    "total_registros": 886264,
+    "arquivos_processados": 12
+  }
+}
